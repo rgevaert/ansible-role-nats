@@ -5,7 +5,8 @@ natscli_version: "0.0.28"
 nats_version: "2.7.2"
 nats_host_group: "core"
 
-nats_server_config: nats-server.conf.j2
+nats_server_config: "nats-server.conf.j2"
+nats_include_files: []
 
 nats_gateway_host_groups: []
 
@@ -18,3 +19,7 @@ nats_prometheus_exporter_version: "0.9.1"
 nats_leaf_node_enabled: false
 nats_leaf_node_listen_enabled: false
 nats_leaf_node_remotes: []
+
+nats_tls_enabled: false
+nats_tls_key_file: "/etc/ssl/private/ssl-cert-snakeoil.key"
+nats_tls_cert_file: "/etc/ssl/certs/ssl-cert-snakeoil.pem"
