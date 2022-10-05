@@ -5,6 +5,8 @@ natscli_version: "0.0.28"
 nats_version: "2.7.2"
 nats_host_group: "core"
 
+nats_server_config: nats-server.conf.j2
+
 nats_gateway_host_groups: []
 
 nats_client_advertise: ""

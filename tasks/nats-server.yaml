@@ -22,7 +22,7 @@
 
 - name: Create or update NATS configuration file (/etc/nats-server.conf)
   template:
-    src: nats-server.conf.j2
+    src: "{{ nats_server_config }}"
     dest: /etc/nats-server.conf
     mode: 0644
     backup: true
