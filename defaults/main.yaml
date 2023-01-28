@@ -1,7 +1,9 @@
 ---
+
 natscli_enabled: "true"
 natscli_version: "0.0.28"
 
+nats_server_enabled: "true"
 nats_version: "2.7.2"
 nats_host_group: "core"
 
